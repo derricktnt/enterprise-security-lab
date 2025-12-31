@@ -1,5 +1,12 @@
 # enterprise-security-lab
-enterprise-security-lab
+### Runtime Configuration
+This framework prompts for:
+- Multiple target IPs or CIDRs
+- Multiple web application URLs
+- API keys (entered securely at runtime)
+
+No sensitive data is hardcoded or stored in the repository.
+
 ## CI/CD Security Scanning
 
 This repository includes a GitHub Actions pipeline that performs automated security checks on every push and pull request.
