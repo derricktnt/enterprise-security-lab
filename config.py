@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#import getpass
+import getpass
 
 def get_targets():
     print("[*] Enter target IPs or CIDRs (comma-separated)")
