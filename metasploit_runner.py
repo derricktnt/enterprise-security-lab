@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import subprocess
 from utils.config import get_targets
 
