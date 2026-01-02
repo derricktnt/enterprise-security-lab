@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import subprocess
-from utils.config import get_targets
+#import subprocess
+#from utils.config import get_targets
 
 def run_metasploit(module, targets):
     for target in targets:
