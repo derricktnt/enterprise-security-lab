@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-#import nmap
-#import json
-#from datetime import datetime
-#from utils.config import get_targets
+import nmap
+import json
+from datetime import datetime
+from utils.config import get_targets
 
 def run_nmap_scan(targets):
     nm = nmap.PortScanner()
