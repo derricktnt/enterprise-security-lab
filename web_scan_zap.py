@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-#from zapv2 import ZAPv2
-#import time
-#import json
-#from utils.config import get_targets, get_api_key
+from zapv2 import ZAPv2
+import time
+import json
+from utils.config import get_targets, get_api_key
 
 def run_zap_scan(targets, api_key):
     zap = ZAPv2(apikey=api_key)
