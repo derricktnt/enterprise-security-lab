@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import nmap
 import json
 from datetime import datetime
