@@ -1,6 +1,6 @@
-from zapv2 import ZAPv2
-import time
-import json
+#from zapv2 import ZAPv2
+#import time
+#import json
 from utils.config import get_targets, get_api_key
 
 def run_zap_scan(targets, api_key):
