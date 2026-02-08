@@ -1,22 +1,25 @@
-# enterprise-security-lab
-### Runtime Configuration
-This framework prompts for:
-- Multiple target IPs or CIDRs
-- Multiple web application URLs
-- API keys (entered securely at runtime)
+# Enterprise Infrastructure & Cybersecurity Engineering Labs
 
-No sensitive data is hardcoded or stored in the repository.
+This repository demonstrates enterprise-grade Linux systems administration, Cisco networking, vulnerability management, and DoD-aligned cybersecurity engineering practices. The environment simulates regulated production infrastructure supporting secure operational environments.
 
-## CI/CD Security Scanning
+## Competencies Demonstrated
+- Red Hat Enterprise Linux administration and STIG hardening
+- Vulnerability scanning and remediation workflows
+- Cisco enterprise networking and segmentation
+- NIST Risk Management Framework (RMF)
+- Zero Trust architecture implementation
+- Incident response and recovery operations
 
-This repository includes a GitHub Actions pipeline that performs automated security checks on every push and pull request.
+## Architecture Overview
+- Multi-tier Linux environments
+- Segmented VLAN-based network architecture
+- Bastion-host administrative access model
+- Centralized logging and vulnerability management
 
-### CI/CD Coverage
-- Static code analysis (Bandit)
-- Dependency vulnerability scanning (Safety)
-- Passive web application scanning (OWASP ZAP Baseline)
+## Compliance Outcomes
+- >95% DISA STIG compliance across Linux systems
+- Fully documented RMF authorization package
+- Secure site-to-site VPN infrastructure
 
-### Design Considerations
-Active exploitation and intrusive scans are intentionally excluded from CI/CD pipelines and are performed manually in controlled environments.
-
-Scan results are published as build artifacts for review.
+## Tools
+RHEL 9, Kali Linux, OpenSCAP, Nessus/OpenVAS, Cisco IOS, VMware, Ansible, Git
